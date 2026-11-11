@@ -25,7 +25,7 @@ I joined DSAIL as an undergraduate research intern in August 2026. Of the lab's 
 
 ## Research topic
 
-Physical laws such as conservation of mass or charge are usually added to training as a soft constraint: the PDE residual becomes an extra term in the loss. That gives no guarantee the law holds for out-of-distribution inputs or over long rollouts. I am working out a way to build these laws into the model's structure as hard constraints while keeping the neural operator's discretization invariance.
+My current research is on neural operators.
 
 ## Paper presentations
 
@@ -62,7 +62,7 @@ I have presented papers on federated graph learning, neural operators, shape opt
 
 ## 연구 주제
 
-질량 보존이나 전하 보존 같은 물리 법칙은 보통 손실 함수에 PDE 잔차를 더하는 방식(soft constraint)으로 학습에 반영합니다. 이 방식으로는 학습 분포를 벗어난 입력이나 긴 시간 예측에서 법칙이 지켜진다는 보장이 없습니다. 이런 법칙을 모델 구조 안에 hard constraint로 넣으면서도 뉴럴 오퍼레이터의 이산화 불변성을 유지하는 방법을 구상하고 있습니다.
+뉴럴 오퍼레이터를 연구하고 있습니다.
 
 ## 논문 발표
 
