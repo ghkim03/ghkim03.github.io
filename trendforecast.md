@@ -6,7 +6,9 @@ permalink: /projects/trendforecast/
 description: "TrendForecast, an early classifier that separates short-lived spikes from emerging trends using 30 days of search volume."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # TrendForecast
 
@@ -18,6 +20,9 @@ An early classifier that separates short-lived spikes from emerging trends.
 - **Data** Naver DataLab Search API
 - **Link** [trendforecast.streamlit.app](https://trendforecast.streamlit.app/)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Overview
 
@@ -36,8 +41,11 @@ The idea came from the Dubai chewy cookie ("Dujjonku") craze in Korea in early 2
 Most of the work went into feature engineering: turning raw search counts into momentum-based features that a classifier can act on. I also built adjustable thresholds so users can set the precision–recall trade-off themselves.
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # TrendForecast
 
@@ -49,6 +57,9 @@ Most of the work went into feature engineering: turning raw search counts into m
 - **데이터** 네이버 데이터랩 검색어 트렌드 API
 - **링크** [trendforecast.streamlit.app](https://trendforecast.streamlit.app/)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 개요
 
@@ -66,4 +77,5 @@ Most of the work went into feature engineering: turning raw search counts into m
 
 원시 검색량을 모멘텀 기반 특징으로 바꾸어 판단에 쓸 수 있는 신호로 만들었습니다. 정밀도와 재현율 사이의 균형을 사용자가 직접 정할 수 있도록 임계값 조정 기능을 설계했습니다.
 
+</div>
 </div>

@@ -6,7 +6,9 @@ permalink: /projects/traffic-signal/
 description: "Multi-agent reinforcement learning (PPO) for traffic signal control at six intersections in Bucheon, trained on real vehicle data."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # Traffic Signal Control with MARL
 
@@ -18,6 +20,9 @@ Multi-agent reinforcement learning for six intersections in Bucheon, trained on 
 - **Stack** Python, SUMO, PPO, Pandas
 - **Data** AI Hub, "Data for AI-based Traffic Signal Optimization"
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Overview
 
@@ -54,8 +59,11 @@ Training used five days of data (September 10, 11, 13, 14, and 15, 2022). Evalua
 </figure>
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # MARL 기반 교통 신호 최적화
 
@@ -67,6 +75,9 @@ Training used five days of data (September 10, 11, 13, 14, and 15, 2022). Evalua
 - **기술** Python, SUMO, PPO, Pandas
 - **데이터** AI Hub 'AI 기반 신호 최적화를 위한 데이터'
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 개요
 
@@ -102,4 +113,5 @@ AI Hub의 'AI 기반 신호 최적화를 위한 데이터'(부천시 개별 차�
   <figcaption>시뮬레이션 500초 동안의 신호 현시. 고정 신호는 긴 주기를 반복하고, MARL 에이전트는 훨씬 짧은 간격으로 현시를 전환합니다.</figcaption>
 </figure>
 
+</div>
 </div>

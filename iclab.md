@@ -6,7 +6,9 @@ permalink: /career/iclab/
 description: "Undergraduate research at ICLab, KAIST: a smart-home IoT and smartphone dataset for mental-health research in young adults."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # ICLab, KAIST
 
@@ -17,6 +19,9 @@ Smart-home IoT and smartphone data as digital biomarkers for mental health in yo
 - **Period** Jan 2026 – Jul 2026
 - **Stack** Python, Pandas, NumPy, Statsmodels (GLMM), scikit-learn, Matplotlib, Seaborn
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Background
 
@@ -55,8 +60,11 @@ Many studies link living alone to higher mental-health risk, but the public data
 In the last weeks of the internship, I checked these results against the existing literature and organized the documentation and analysis code for the dataset release.
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # ICLab, KAIST
 
@@ -67,6 +75,9 @@ In the last weeks of the internship, I checked these results against the existin
 - **기간** 2026.01 – 2026.07
 - **기술** Python, Pandas, NumPy, Statsmodels (GLMM), scikit-learn, Matplotlib, Seaborn
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 연구 배경
 
@@ -104,4 +115,5 @@ In the last weeks of the internship, I checked these results against the existin
 
 인턴 기간 후반에는 분석 결과를 기존 문헌과 교차 검증하고 데이터셋 공개를 위한 문서와 분석 코드를 정리했습니다.
 
+</div>
 </div>

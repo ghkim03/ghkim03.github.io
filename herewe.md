@@ -6,7 +6,9 @@ permalink: /career/herewe/
 description: "Full-stack developer at HereWe Inc. (formerly Dasty), May 2022 to December 2023."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # HereWe Inc.
 
@@ -18,6 +20,9 @@ Formerly Dasty. An early-stage startup building 3D social products.
 - **Stack** Svelte, JavaScript/TypeScript, SCSS, Three.js
 - **Website** [dimension.company](https://dimension.company/)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Overview
 
@@ -46,8 +51,11 @@ I joined as an intern in May 2022 and worked unpaid for the first six months. Th
 - GitHub organization: [github.com/dastyinc](https://github.com/dastyinc)
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # (주) 여기우리
 
@@ -59,6 +67,9 @@ I joined as an intern in May 2022 and worked unpaid for the first six months. Th
 - **기술** Svelte, JavaScript/TypeScript, SCSS, Three.js
 - **웹사이트** [dimension.company](https://dimension.company/)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 개요
 
@@ -86,4 +97,5 @@ I joined as an intern in May 2022 and worked unpaid for the first six months. Th
 - 서비스 소개: [herewe.framer.website](https://herewe.framer.website/)
 - GitHub: [github.com/dastyinc](https://github.com/dastyinc)
 
+</div>
 </div>

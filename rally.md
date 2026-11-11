@@ -6,7 +6,9 @@ permalink: /projects/rally/
 description: "Rally, a platform where university students find and subscribe to competitions and contests in their field."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # Rally
 
@@ -20,6 +22,9 @@ A platform where university students find and subscribe to competitions and cont
 - **Infra** Render (CI/CD), Firebase Hosting, GitHub Actions
 - **GitHub** [frontend](https://github.com/wagyu1001/Rally), [backend](https://github.com/wagyu1001/Servey)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Overview
 
@@ -40,8 +45,11 @@ Rally helps university students find competitions and contests that match their 
 - Firebase Authentication handles sign-in.
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # Rally
 
@@ -55,6 +63,9 @@ Rally helps university students find competitions and contests that match their 
 - **인프라** Render (CI/CD), Firebase Hosting, GitHub Actions
 - **GitHub** [프론트엔드](https://github.com/wagyu1001/Rally), [백엔드](https://github.com/wagyu1001/Servey)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 개요
 
@@ -74,4 +85,5 @@ Rally helps university students find competitions and contests that match their 
 - Helmet으로 보안 헤더를 설정하고 일반 API는 15분당 100회, AI 분석 API는 15분당 20회로 요청 수를 제한했습니다.
 - 인증은 Firebase Authentication으로 처리합니다.
 
+</div>
 </div>

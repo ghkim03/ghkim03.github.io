@@ -6,7 +6,9 @@ permalink: /career/dsail/
 description: "Undergraduate research at DSAIL, KAIST: neural operators for partial differential equations and shape optimization."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # DSAIL, KAIST
 
@@ -18,6 +20,9 @@ Research on neural operators for solving partial differential equations and for 
 - **Lab** Data Science & Artificial Intelligence Lab, Department of Industrial & Systems Engineering, KAIST
 - **Area** AI for Engineering (fluid dynamics and PDEs)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Overview
 
@@ -42,8 +47,11 @@ I have presented papers on federated graph learning, neural operators, shape opt
 {: .dated}
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # DSAIL, KAIST
 
@@ -55,6 +63,9 @@ I have presented papers on federated graph learning, neural operators, shape opt
 - **연구실** KAIST 산업및시스템공학과 Data Science & Artificial Intelligence Lab
 - **분야** AI for Engineering (유체역학, PDE)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 개요
 
@@ -78,4 +89,5 @@ I have presented papers on federated graph learning, neural operators, shape opt
 - *2026.11* Reward Is Enough / Welcome to the Era of Experience
 {: .dated}
 
+</div>
 </div>

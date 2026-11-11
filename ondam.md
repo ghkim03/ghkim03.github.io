@@ -6,7 +6,9 @@ permalink: /projects/ondam/
 description: "Ondam, an AI travel planner for Jeollabuk-do built on public tourism data."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # Ondam
 
@@ -18,6 +20,9 @@ An AI travel planner for Jeollabuk-do built on public tourism data.
 - **Infra** Render (CI/CD), Firebase Hosting
 - **Link** [GitHub](https://github.com/wagyu1001/Ondam)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Overview
 
@@ -34,8 +39,11 @@ I built Ondam for the Honam IS Coding Challenge at the Jeonju ICT Innovation Squ
 Place information in each plan comes from four Public Data Portal APIs for Jeollabuk-do: tourist attractions, tourism information by category, restaurants by area, and restaurants by theme. The backend is Node.js with Express, using Helmet for security headers, Morgan for request logging, CORS for cross-origin requests, and dotenv for configuration.
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # Ondam
 
@@ -47,6 +55,9 @@ Place information in each plan comes from four Public Data Portal APIs for Jeoll
 - **인프라** Render (CI/CD), Firebase Hosting
 - **링크** [GitHub](https://github.com/wagyu1001/Ondam)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 개요
 
@@ -62,4 +73,5 @@ Place information in each plan comes from four Public Data Portal APIs for Jeoll
 
 공공데이터포털의 전북 관광지, 분류별 관광 정보, 지역별 음식점, 테마별 음식점 API 네 가지를 묶어 일정에 들어갈 장소 정보를 구성했습니다. 백엔드는 Node.js와 Express로 만들었고 Helmet, Morgan, CORS, dotenv로 보안 헤더, 요청 로그, 교차 출처 요청, 환경 변수를 관리했습니다.
 
+</div>
 </div>

@@ -6,7 +6,9 @@ permalink: /projects/cagam/
 description: "CaGam, an iOS camera app that suggests composition, zoom, and exposure with on-device machine learning."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # CaGam
 
@@ -18,6 +20,9 @@ An iOS camera app that guides composition and exposure with on-device machine le
 - **Stack** Swift, SwiftUI, AVFoundation, Vision, Core ML, PyTorch, Google AdMob
 - **Links** [App Store](https://apps.apple.com/kr/app/id6763986554) · [GitHub](https://github.com/wagyu1001/CaGam)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Overview
 
@@ -40,8 +45,11 @@ CaGam is for people who find it hard to frame a photo. It reads the camera feed 
 - Revenue comes from Google AdMob rewarded and native ads.
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # CaGam (카감)
 
@@ -53,6 +61,9 @@ CaGam is for people who find it hard to frame a photo. It reads the camera feed 
 - **기술** Swift, SwiftUI, AVFoundation, Vision, Core ML, PyTorch, Google AdMob
 - **링크** [App Store](https://apps.apple.com/kr/app/id6763986554) · [GitHub](https://github.com/wagyu1001/CaGam)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 개요
 
@@ -74,4 +85,5 @@ CaGam(카감)은 사진 구도를 잡기 어려워하는 사람을 위한 iOS �
 - 인물 위치 예측값과 바운딩 박스에 지수 이동 평균(α = 0.15)을 적용해 안내 표시가 떨리지 않도록 했습니다.
 - 수익 모델은 Google AdMob 보상형 광고와 네이티브 광고입니다.
 
+</div>
 </div>

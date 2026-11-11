@@ -6,7 +6,9 @@ permalink: /projects/questree/
 description: "Questree, a learning tool that lays out a conversation with an AI model as a tree."
 ---
 
-<div lang="en" markdown="1">
+<div lang="en" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # Questree
 
@@ -18,6 +20,9 @@ A learning tool that lays out a conversation with an AI model as a tree.
 - **Infra** Render (CI/CD), Firebase Hosting
 - **Link** [GitHub](https://github.com/wagyu1001/Questree)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## Overview
 
@@ -36,8 +41,11 @@ Questree started as a team project in a Technology Entrepreneurship course in th
 The frontend is SvelteKit with TypeScript and plain CSS. A Node.js and Express server sits between the frontend and the Gemini API. In development mode the server returns sample responses instead of calling the API, which kept API usage down while building. Render deploys both the server and the client automatically.
 
 </div>
+</div>
 
-<div lang="ko" markdown="1">
+<div lang="ko" markdown="1" class="split">
+
+<div class="split-aside" markdown="1">
 
 # Questree
 
@@ -49,6 +57,9 @@ AI와의 대화 흐름을 트리 구조로 보여 주는 학습 도구
 - **인프라** Render (CI/CD), Firebase Hosting
 - **링크** [GitHub](https://github.com/wagyu1001/Questree)
 {: .facts}
+
+</div>
+<div class="split-main" markdown="1">
 
 ## 개요
 
@@ -66,4 +77,5 @@ AI와의 대화 흐름을 트리 구조로 보여 주는 학습 도구
 
 SvelteKit과 TypeScript로 프론트엔드를 만들고 Node.js와 Express 서버가 프론트엔드와 Gemini API 사이를 중계합니다. 개발 모드에서는 API를 호출하지 않고 샘플 응답을 돌려주도록 해 API 사용량을 아꼈습니다. 서버와 클라이언트는 Render로 자동 배포합니다.
 
+</div>
 </div>

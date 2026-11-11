@@ -5,12 +5,10 @@ title_ko: "김규환"
 permalink: /
 ---
 {%- assign d = site.data.home -%}
-<section class="intro">
-  <h1><span lang="en">Gyuhwan Kim</span><span lang="ko">김규환</span></h1>
-  <p class="role">
-    <span lang="en">Undergraduate, School of Computing, KAIST</span>
-    <span lang="ko">KAIST 전산학부 학부생</span>
-  </p>
+<h1 class="sr-only"><span lang="en">Gyuhwan Kim</span><span lang="ko">김규환</span></h1>
+<div class="split split-home">
+<aside class="split-aside intro">
+  <h2><span lang="en">About</span><span lang="ko">소개</span></h2>
 
   <div lang="en">
     <p>I am an undergraduate in the School of Computing at KAIST, with a minor in Business and Technology Management. I build software end to end, from database schemas and backend APIs to web frontends and on-device machine learning for iOS.</p>
@@ -25,7 +23,9 @@ permalink: /
     <li><span class="label"><span lang="en">Email</span><span lang="ko">이메일</span></span><a href="mailto:gyuhwankim@kaist.ac.kr">gyuhwankim@kaist.ac.kr</a></li>
     <li><span class="label">GitHub</span><a href="https://github.com/wagyu1001?tab=repositories">github.com/wagyu1001</a></li>
   </ul>
-</section>
+</aside>
+
+<div class="split-main">
 
 <h2><span lang="en">Experience</span><span lang="ko">경력</span></h2>
 <ul class="entries">
@@ -76,3 +76,5 @@ permalink: /
   <dd>{{ s.items }}</dd>
   {%- endfor %}
 </dl>
+</div>
+</div>
