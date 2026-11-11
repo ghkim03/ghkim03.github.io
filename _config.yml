@@ -1,3 +1,16 @@
-title: "규환's page"
-description: "KAIST School of Computing — projects and work"
-theme: jekyll-theme-cayman
+title: "Gyuhwan Kim"
+title_ko: "김규환"
+description: "Gyuhwan Kim, School of Computing, KAIST. Experience, research, and projects."
+description_ko: "KAIST 전산학부 김규환의 경력, 연구, 프로젝트를 정리한 페이지입니다."
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

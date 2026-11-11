@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- assign title_en = page.title | default: site.title -%}
+  {%- assign title_ko = page.title_ko | default: page.title | default: site.title_ko -%}
+  {%- if page.url == "/" -%}
+    {%- assign full_en = site.title -%}
+    {%- assign full_ko = site.title_ko -%}
+  {%- else -%}
+    {%- capture full_en -%}{{ title_en }} | {{ site.title }}{%- endcapture -%}
+    {%- capture full_ko -%}{{ title_ko }} | {{ site.title_ko }}{%- endcapture -%}
+  {%- endif -%}
+  <title data-en="{{ full_en | escape }}" data-ko="{{ full_ko | escape }}">{{ full_en }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:title" content="{{ full_en | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:type" content="website">
+  <script>
+    (function () {
+      var lang = null;
+      try {
+        var q = new URLSearchParams(window.location.search).get("lang");
+        if (q === "en" || q === "ko") lang = q;
+        if (!lang) lang = localStorage.getItem("lang");
+      } catch (e) {}
+      if (lang !== "en" && lang !== "ko") {
+        var nav = (navigator.languages && navigator.languages[0]) || navigator.language || "en";
+        lang = /^ko/i.test(nav) ? "ko" : "en";
+      }
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.setAttribute("lang", lang);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Noto+Serif+KR:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="{{ '/' | relative_url }}">
+        <span lang="en">Gyuhwan Kim</span><span lang="ko">김규환</span>
+      </a>
+      <div class="lang-switch" role="group" aria-label="Language / 언어">
+        <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+        <button type="button" data-set-lang="ko" aria-pressed="false">한국어</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {%- if page.url != "/" %}
+    <nav class="breadcrumb">
+      <a href="{{ '/' | relative_url }}"><span lang="en">&larr; Home</span><span lang="ko">&larr; 홈으로</span></a>
+    </nav>
+    {%- endif %}
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        <span lang="en">&copy; {{ site.time | date: "%Y" }} Gyuhwan Kim</span><span lang="ko">&copy; {{ site.time | date: "%Y" }} 김규환</span>
+        &middot; <a href="mailto:gyuhwankim@kaist.ac.kr">gyuhwankim@kaist.ac.kr</a>
+        &middot; <a href="https://github.com/wagyu1001">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/lang.js' | relative_url }}"></script>
+</body>
+</html>

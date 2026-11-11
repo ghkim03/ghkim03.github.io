@@ -1,0 +1,78 @@
+---
+layout: default
+title: "Gyuhwan Kim"
+title_ko: "김규환"
+permalink: /
+---
+{%- assign d = site.data.home -%}
+<section class="intro">
+  <h1><span lang="en">Gyuhwan Kim</span><span lang="ko">김규환</span></h1>
+  <p class="role">
+    <span lang="en">Undergraduate, School of Computing, KAIST</span>
+    <span lang="ko">KAIST 전산학부 학부생</span>
+  </p>
+
+  <div lang="en">
+    <p>I am an undergraduate in the School of Computing at KAIST, with a minor in Business and Technology Management. I build software end to end, from database schemas and backend APIs to web frontends and on-device machine learning for iOS.</p>
+    <p>I learned product development during a year and a half as a full-stack developer at an early-stage startup. After that, research on digital biomarkers for mental health at ICLab and several personal projects drew me toward data analysis and machine learning. Since August 2026 I have been working on neural operators for partial differential equations (PDEs) at DSAIL.</p>
+  </div>
+  <div lang="ko">
+    <p>KAIST 전산학부에 재학 중이며 기술경영학부를 부전공하고 있습니다. 데이터베이스 설계와 백엔드 API부터 웹 프론트엔드, iOS 온디바이스 머신러닝까지 서비스 전 과정을 직접 구현해 왔습니다.</p>
+    <p>초기 스타트업에서 1년 반 동안 풀스택 개발자로 일하며 제품 개발의 기본기를 익혔습니다. 이후 ICLab에서 디지털 정신건강 바이오마커를 연구하고 여러 개인 프로젝트를 진행하며 데이터 분석과 머신러닝으로 관심을 넓혔습니다. 2026년 8월부터는 DSAIL에서 편미분방정식(PDE)을 위한 뉴럴 오퍼레이터를 연구하고 있습니다.</p>
+  </div>
+
+  <ul class="contact">
+    <li><span class="label"><span lang="en">Email</span><span lang="ko">이메일</span></span><a href="mailto:gyuhwankim@kaist.ac.kr">gyuhwankim@kaist.ac.kr</a></li>
+    <li><span class="label">GitHub</span><a href="https://github.com/wagyu1001?tab=repositories">github.com/wagyu1001</a></li>
+  </ul>
+</section>
+
+<h2><span lang="en">Experience</span><span lang="ko">경력</span></h2>
+<ul class="entries">
+  {%- for e in d.experience %}
+  <li class="entry">
+    <div class="entry-head">
+      <span class="entry-title"><a href="{{ e.url | relative_url }}"><span lang="en">{{ e.title_en }}</span><span lang="ko">{{ e.title_ko }}</span></a></span>
+      <span class="entry-date"><span lang="en">{{ e.date_en }}</span><span lang="ko">{{ e.date_ko }}</span></span>
+    </div>
+    <div class="entry-sub"><span lang="en">{{ e.role_en }}</span><span lang="ko">{{ e.role_ko }}</span></div>
+    <p class="entry-desc"><span lang="en">{{ e.desc_en }}</span><span lang="ko">{{ e.desc_ko }}</span></p>
+  </li>
+  {%- endfor %}
+</ul>
+
+<h2><span lang="en">Projects</span><span lang="ko">프로젝트</span></h2>
+<ul class="entries">
+  {%- for p in d.projects %}
+  <li class="entry">
+    <div class="entry-head">
+      <span class="entry-title"><a href="{{ p.url | relative_url }}"><span lang="en">{{ p.title_en }}</span><span lang="ko">{{ p.title_ko }}</span></a></span>
+      <span class="entry-date"><span lang="en">{{ p.date_en }}</span><span lang="ko">{{ p.date_ko }}</span></span>
+    </div>
+    <p class="entry-desc"><span lang="en">{{ p.desc_en }}</span><span lang="ko">{{ p.desc_ko }}</span></p>
+  </li>
+  {%- endfor %}
+</ul>
+
+<h2><span lang="en">Education</span><span lang="ko">학력</span></h2>
+<ul class="entries">
+  {%- for e in d.education %}
+  <li class="entry">
+    <div class="entry-head">
+      <span class="entry-title"><span lang="en">{{ e.title_en }}</span><span lang="ko">{{ e.title_ko }}</span></span>
+      <span class="entry-date"><span lang="en">{{ e.date_en }}</span><span lang="ko">{{ e.date_ko }}</span></span>
+    </div>
+    {%- if e.sub_en %}
+    <div class="entry-sub"><span lang="en">{{ e.sub_en }}</span><span lang="ko">{{ e.sub_ko }}</span></div>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+</ul>
+
+<h2><span lang="en">Technical Skills</span><span lang="ko">기술 역량</span></h2>
+<dl class="skills">
+  {%- for s in d.skills %}
+  <dt><span lang="en">{{ s.label_en }}</span><span lang="ko">{{ s.label_ko }}</span></dt>
+  <dd>{{ s.items }}</dd>
+  {%- endfor %}
+</dl>
