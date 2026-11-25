@@ -194,8 +194,8 @@ figcaption { font-size: 0.85rem; color: var(--faint); margin-top: 8px; }
 .hobby { margin-top: 4px; }
 .hobby a { font-weight: 600; border-bottom: 1px solid currentColor; }
 
-.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.gallery { columns: 3 260px; column-gap: 12px; }
 .gallery:empty { display: none; }
-.gallery a { display: block; border: 0; }
-.gallery img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px; display: block; }
+.gallery a { display: block; border: 0; margin: 0 0 12px; break-inside: avoid; }
+.gallery img { width: 100%; height: auto; border-radius: 4px; display: block; }
 .gallery-empty { color: var(--muted); border: 1px dashed var(--rule); border-radius: 6px; padding: 40px 24px; text-align: center; }
