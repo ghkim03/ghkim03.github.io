@@ -28,13 +28,11 @@ Research on neural operators for solving partial differential equations and for 
 
 I joined DSAIL as an undergraduate research intern in August 2026. Of the lab's project areas, I work in AI for Engineering, which deals with fluid dynamics and partial differential equations (PDEs). My main interest is neural operators. A neural operator learns the mapping from an input function, such as an initial condition or a geometry, to the solution of a PDE, and it can be evaluated on grids with a different resolution from the one it was trained on.
 
-## Research topic
+## Research areas
 
-My current research is on neural operators.
+Shape optimization, surrogate models, neural operators
 
-## Paper presentations
-
-I have presented papers on federated graph learning, neural operators, shape optimization, CAD generation, and reinforcement learning in the lab's study sessions.
+## Paper study
 
 - *2026.08* Subgraph Federated Learning for Local Generalization (FedLoG, ICLR 2025)
 - *2026.09* Transolver: A Fast Transformer Solver for PDEs on General Geometries
@@ -55,7 +53,7 @@ I have presented papers on federated graph learning, neural operators, shape opt
 
 # DSAIL, KAIST
 
-편미분방정식(PDE) 풀이와 형상 최적화에 쓰이는 뉴럴 오퍼레이터 연구
+편미분방정식(PDE) 풀이와 형상 최적화에 쓰이는 Neural Operator 연구
 {: .lede}
 
 - **직무** 학부 연구 인턴
@@ -69,15 +67,13 @@ I have presented papers on federated graph learning, neural operators, shape opt
 
 ## 개요
 
-2026년 8월부터 KAIST 산업및시스템공학과 DSAIL(Data Science & Artificial Intelligence Lab)에서 학부 연구 인턴으로 활동하고 있습니다. 연구실의 여러 프로젝트 가운데 유체역학과 편미분방정식(PDE)을 다루는 AI for Engineering 분야에 참여합니다. 주된 관심사는 뉴럴 오퍼레이터입니다. 뉴럴 오퍼레이터는 초기 조건이나 형상 같은 입력 함수에서 PDE의 해로 가는 사상을 학습하는 모델로, 학습할 때와 다른 해상도의 격자에서도 사용할 수 있습니다.
+2026년 8월부터 KAIST 산업및시스템공학과 DSAIL(Data Science & Artificial Intelligence Lab)에서 학부 연구 인턴으로 활동하고 있습니다. 연구실의 여러 프로젝트 가운데 유체역학과 편미분방정식(PDE)을 다루는 AI for Engineering 분야에 참여합니다. 주된 관심사는 Neural Operator입니다. Neural Operator는 초기 조건이나 형상 같은 입력 함수에서 PDE의 해로 가는 사상을 학습하는 모델로, 학습할 때와 다른 해상도의 격자에서도 사용할 수 있습니다.
 
-## 연구 주제
+## 연구 분야
 
-뉴럴 오퍼레이터를 연구하고 있습니다.
+형상 최적화, surrogate model, Neural Operator
 
-## 논문 발표
-
-연구실 스터디에서 연합 그래프 학습, 뉴럴 오퍼레이터, 형상 최적화, CAD 생성, 강화학습 분야의 논문을 발표했습니다.
+## 논문 스터디
 
 - *2026.08* Subgraph Federated Learning for Local Generalization (FedLoG, ICLR 2025)
 - *2026.09* Transolver: A Fast Transformer Solver for PDEs on General Geometries

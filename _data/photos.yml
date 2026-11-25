@@ -1,9 +1,0 @@
-# Photos shown on /photos/.
-# 1) Put the image file in assets/photos/ (JPG or PNG, about 2000px on the long side is plenty).
-# 2) Add an entry below. Captions and date are optional.
-#
-# - file: seoul-night.jpg
-#   caption_en: "Seoul at night"
-#   caption_ko: "서울의 밤"
-#   date: "2026.10"
-[]

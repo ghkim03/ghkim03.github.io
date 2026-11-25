@@ -7,7 +7,7 @@ experience:
     date_en: "Aug 2026 – Present"
     date_ko: "2026.08 ~ 현재"
     desc_en: "Research on neural operators for solving partial differential equations (PDEs) and for shape optimization."
-    desc_ko: "편미분방정식(PDE) 풀이와 형상 최적화에 쓰이는 뉴럴 오퍼레이터를 연구하고 있습니다."
+    desc_ko: "편미분방정식(PDE) 풀이와 형상 최적화에 쓰이는 Neural Operator를 연구하고 있습니다."
   - title_en: "ICLab, KAIST"
     title_ko: "ICLab, KAIST"
     url: /career/iclab/
@@ -24,8 +24,8 @@ experience:
     role_ko: "풀스택 개발자"
     date_en: "May 2022 – Dec 2023"
     date_ko: "2022.05 ~ 2023.12"
-    desc_en: "Built and ran the frontend, backend, and database of a 3D social platform, and worked on its core features before and after a product pivot."
-    desc_ko: "3D 소셜 플랫폼의 프론트엔드, 백엔드, 데이터베이스를 개발하고 운영했습니다. 서비스 피보팅 전후의 핵심 기능 개발을 맡았습니다."
+    desc_en: "Built and ran the frontend, backend, and database of a 3D social platform."
+    desc_ko: "3D 소셜 플랫폼의 프론트엔드, 백엔드, 데이터베이스를 개발하고 운영했습니다."
 
 projects:
   - title_en: "CaGam"
@@ -83,16 +83,3 @@ education:
     date_en: "Mar 2019 – Feb 2021"
     date_ko: "2019.03 ~ 2021.02"
 
-skills:
-  - label_en: "Languages"
-    label_ko: "언어"
-    items: "TypeScript, JavaScript, Python, Swift, Java, C++, SQL"
-  - label_en: "Web & backend"
-    label_ko: "웹·백엔드"
-    items: "SvelteKit, Node.js, Express, PostgreSQL (Supabase), Redis, Firebase, Three.js"
-  - label_en: "ML & data"
-    label_ko: "머신러닝·데이터"
-    items: "PyTorch, Core ML, scikit-learn, LightGBM, Statsmodels, Pandas, NumPy"
-  - label_en: "Tools"
-    label_ko: "도구"
-    items: "SUMO, Streamlit, Render, GitHub Actions"
