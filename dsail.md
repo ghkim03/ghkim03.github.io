@@ -59,7 +59,7 @@ I have presented papers on federated graph learning, neural operators, shape opt
 {: .lede}
 
 - **직무** 학부 연구 인턴
-- **기간** 2026.08 – 현재
+- **기간** 2026.08 ~ 현재
 - **연구실** KAIST 산업및시스템공학과 Data Science & Artificial Intelligence Lab
 - **분야** AI for Engineering (유체역학, PDE)
 {: .facts}
@@ -69,7 +69,7 @@ I have presented papers on federated graph learning, neural operators, shape opt
 
 ## 개요
 
-2026년 8월부터 KAIST 산업및시스템공학과 DSAIL(Data Science & Artificial Intelligence Lab)에서 학부 연구 인턴으로 활동하고 있습니다. 연구실의 여러 프로젝트 가운데 유체역학과 편미분방정식(PDE)을 다루는 AI for Engineering 분야에 참여하고 있습니다. 주된 관심사는 뉴럴 오퍼레이터입니다. 뉴럴 오퍼레이터는 초기 조건이나 형상 같은 입력 함수에서 PDE의 해로 가는 사상을 학습하는 모델로, 학습할 때와 다른 해상도의 격자에서도 사용할 수 있습니다.
+2026년 8월부터 KAIST 산업및시스템공학과 DSAIL(Data Science & Artificial Intelligence Lab)에서 학부 연구 인턴으로 활동하고 있습니다. 연구실의 여러 프로젝트 가운데 유체역학과 편미분방정식(PDE)을 다루는 AI for Engineering 분야에 참여합니다. 주된 관심사는 뉴럴 오퍼레이터입니다. 뉴럴 오퍼레이터는 초기 조건이나 형상 같은 입력 함수에서 PDE의 해로 가는 사상을 학습하는 모델로, 학습할 때와 다른 해상도의 격자에서도 사용할 수 있습니다.
 
 ## 연구 주제
 

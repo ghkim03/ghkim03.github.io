@@ -72,7 +72,7 @@ In the last weeks of the internship, I checked these results against the existin
 {: .lede}
 
 - **직무** 학부 연구 인턴
-- **기간** 2026.01 – 2026.07
+- **기간** 2026.01 ~ 2026.07
 - **기술** Python, Pandas, NumPy, Statsmodels (GLMM), scikit-learn, Matplotlib, Seaborn
 {: .facts}
 
@@ -100,7 +100,7 @@ In the last weeks of the internship, I checked these results against the existin
 
 ### 통계 분석과 예측 모델
 
-- 일간(PHQ-2, GAD-2)과 격주(PHQ-9, GAD-7) 정신건강 지표 각각에 대해 일반화 선형 혼합 모형(GLMM)을 적합했습니다. 일간 모델은 10명, 651개 관측치를 사용했습니다.
+- 일간(PHQ-2, GAD-2)과 격주(PHQ-9, GAD-7) 정신건강 지표마다 일반화 선형 혼합 모형(GLMM)을 적합했습니다. 일간 모델은 10명, 651개 관측치를 사용했습니다.
 - p-value가 가장 큰 특징부터 하나씩 제거하는 후진 제거법으로 모든 변수가 p < 0.05가 될 때까지 모델을 정리했습니다.
 - 머신러닝 회귀 모델 5종을 Leave-One-Subject-Out 교차검증으로 비교했습니다. Random Forest가 PHQ 점수에서 12.8%의 오차율을 보였고 하이퍼파라미터 튜닝으로 전반적인 성능을 약 6% 개선했습니다. 반면 분류 정확도는 최대 57%에 그쳤습니다.
 
@@ -113,7 +113,7 @@ In the last weeks of the internship, I checked these results against the existin
 
 ## 마무리
 
-인턴 기간 후반에는 분석 결과를 기존 문헌과 교차 검증하고 데이터셋 공개를 위한 문서와 분석 코드를 정리했습니다.
+인턴 기간 후반에는 분석 결과를 기존 문헌과 교차 검증하고 데이터셋 공개에 필요한 문서와 분석 코드를 정리했습니다.
 
 </div>
 </div>

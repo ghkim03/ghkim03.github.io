@@ -63,7 +63,7 @@ I joined as an intern in May 2022 and worked unpaid for the first six months. Th
 {: .lede}
 
 - **직무** 풀스택 개발자
-- **기간** 2022.05 – 2023.12 (2022.12 정규직 전환)
+- **기간** 2022.05 ~ 2023.12 (2022.12 정규직 전환)
 - **기술** Svelte, JavaScript/TypeScript, SCSS, Three.js
 - **웹사이트** [dimension.company](https://dimension.company/)
 {: .facts}

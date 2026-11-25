@@ -53,10 +53,10 @@ Rally helps university students find competitions and contests that match their 
 
 # Rally
 
-대학생을 위한 공모전·대회 정보 구독 플랫폼
+대학생이 전공에 맞는 공모전과 대회를 찾아 구독하는 플랫폼
 {: .lede}
 
-- **기간** 2025.07 – 2025.08
+- **기간** 2025.07 ~ 2025.08
 - **프론트엔드** SvelteKit, TypeScript, Tailwind CSS, Sveltestrap
 - **백엔드** Node.js, Express, Supabase (PostgreSQL), Redis, Resend, Sharp, Firebase Authentication
 - **AI** Google Cloud Vision (OCR), Google Gemini API
